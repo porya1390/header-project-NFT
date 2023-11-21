@@ -34,6 +34,32 @@ header h1{
 ul{
     display: none;
 }
+@media only screen and (min-width:900px){
+    main{
+        max-width: 1000px;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        color: white;
+        list-style: none;
+    }
+    hr{
+        display: none;
+    }
+    header button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #05C075;
+        width: 130px;
+        height: 35px;
+        color: white;
+        border: none;
+        border-radius: 15px;
+    }
+}
 
 
 
