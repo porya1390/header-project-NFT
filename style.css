@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: black;
+}
+main{
+    max-width: 370px;
+    margin: 30px auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+hr{
+   background-color: white;
+    width: 40px;
+    height: 5px;
+    border-radius: 20px;
+    display: flex;
+}
+header div{
+display: flex;
+flex-direction: column;
+gap: 6px;
+}
+header h1{
+    color: #05C075;
+}
+ul{
+    display: none;
+}
+
+
+
